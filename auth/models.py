@@ -4,10 +4,11 @@ import sqlalchemy
 import databases
 import config
 from pydantic import SecretStr
-#from database.db import metadata, database
+#from database.db import metadata#, database
 
 database = databases.Database(config.DB_URL)
 metadata = sqlalchemy.MetaData()
+
 
 
 

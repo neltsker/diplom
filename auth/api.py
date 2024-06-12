@@ -16,6 +16,8 @@ async def index(request: Request):
     # return templates.TemplateResponse("auth.html", {"request": request})
 
 
+
+
 # @user_router.post("/registartion", tags=["auth"])
 # async def create_user(user: models.User, response: Response):
 #     print(UserValidator(user))
